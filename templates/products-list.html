@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>products</title>
+</head>
+<body>
+
+<ul>
+    {% for product in products %}
+        <h1>products:</h1>
+
+        <h2>{{ product.title }}</h2>
+        <p> Multicoloured bucket bag. Exterior with mesh and rhinestone details.<br>
+            Chain handles with combined materials. Chain shoulder strap. Lined interior.
+        </p>
+
+    {% endfor %}
+</ul>
+
+</body>
+</html>
