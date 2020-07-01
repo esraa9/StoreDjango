@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>products</title>
+    <style type="text/css">
+        p {
+            width: = 25%;
+        }
+    </style>
 </head>
 <body>
 
 <ul>
+  <h1>products:</h1>
     {% for product in products %}
-        <h1>products:</h1>
+
 
         <h2>{{ product.title }}</h2>
-        <p> Multicoloured bucket bag. Exterior with mesh and rhinestone details.<br>
-            Chain handles with combined materials. Chain shoulder strap. Lined interior.
-        </p>
+        <p style="width:25%;">{{ product.description }}</p>
+
 
     {% endfor %}
 </ul>
