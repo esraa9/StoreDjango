@@ -2,11 +2,10 @@ from django.db import models
 
 
 # Create your models here.
-class product(models.Model):
+class Product(models.Model):
     title = models.CharField(max_length=100)
-    description = models.CharField(max_length=500)
+    description = models.TextField(max_length=500, blank=True, null=True)
 
-
+    @property
     def __str__(self):
-        return self.title +" " + self.description
-
+        return self.title

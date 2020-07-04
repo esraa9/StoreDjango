@@ -19,7 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b7c4cba-99ef-46a4-b656-ae0e4fb7a45c" name="Default Changelist" comment="" />
+    <list default="true" id="3b7c4cba-99ef-46a4-b656-ae0e4fb7a45c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/product-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/products-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products-list.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +163,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593516995877</updated>
-      <workItem from="1593517018908" duration="31146000" />
+      <workItem from="1593517018908" duration="50063000" />
+      <workItem from="1593813602721" duration="9436000" />
     </task>
     <servers />
   </component>
@@ -172,6 +184,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1593592832240">
@@ -182,6 +195,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="226" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1593518375069" />
+    <state x="486" y="153" key="#Web_Browsers" timestamp="1593716032823">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="486" y="153" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1593716032823" />
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593518264732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -190,33 +207,57 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="233" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1593531171970" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593538141221">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1593866161148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593538141221" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593538141221">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593866161148" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1593866161147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593538141221" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593538141221">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593866161147" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1593866161147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593538141221" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593538141221">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593866161147" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1593866161147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593538141221" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593866161147" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1593866161149">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593866161149" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1593866161148">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593866161148" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1593866161148">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593866161148" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1593866161149">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593866161149" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1593529333741">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593529333741" />
+    <state x="238" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593813865574">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="238" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1593813865574" />
+    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1593716207559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593716207559" />
     <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593520438750">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1593520438750" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/StoreDjango$views.coverage" NAME="views Coverage Results" MODIFIED="1593533482704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/products" />
+    <SUITE FILE_PATH="coverage/StoreDjango$views.coverage" NAME="views Coverage Results" MODIFIED="1593866150867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/products" />
     <SUITE FILE_PATH="coverage/StoreDjango$manage.coverage" NAME="manage Coverage Results" MODIFIED="1593533462352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
