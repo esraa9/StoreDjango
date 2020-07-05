@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b7c4cba-99ef-46a4-b656-ae0e4fb7a45c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/products/migrations/0003_product_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/migrations/0004_product_created_date.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,10 @@
       <option name="presentableId" value="Default" />
       <updated>1593516995877</updated>
       <workItem from="1593517018908" duration="50063000" />
-      <workItem from="1593813602721" duration="17218000" />
+      <workItem from="1593813602721" duration="18163000" />
+      <workItem from="1593963618309" duration="1289000" />
+      <workItem from="1594232932044" duration="12081000" />
+      <workItem from="1594324486418" duration="816000" />
     </task>
     <servers />
   </component>
@@ -188,12 +192,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1593592832240">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1593592832240" />
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1594311690109">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1594311690109" />
     <state x="568" y="226" key="#Notifications" timestamp="1593518375069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
