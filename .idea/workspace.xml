@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b7c4cba-99ef-46a4-b656-ae0e4fb7a45c" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/products/migrations/0003_product_price.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/products/migrations/0004_product_created_date.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -27,6 +28,9 @@
       <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/product-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product-details.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,10 +169,14 @@
       <option name="presentableId" value="Default" />
       <updated>1593516995877</updated>
       <workItem from="1593517018908" duration="50063000" />
+<<<<<<< HEAD
       <workItem from="1593813602721" duration="18163000" />
       <workItem from="1593963618309" duration="1289000" />
       <workItem from="1594232932044" duration="12081000" />
       <workItem from="1594324486418" duration="816000" />
+=======
+      <workItem from="1593813602721" duration="17850000" />
+>>>>>>> origin/master
     </task>
     <servers />
   </component>
