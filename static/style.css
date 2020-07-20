@@ -267,7 +267,18 @@ main {
     margin-top: 10px;
     transition-duration: .3s;
 }
+a{
+   width: 140px;
+    line-height: 40px;
+    font-size: 16px;
+    background: #222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition-duration: .3s;
 
+}
 .form button:hover{
    background: #111;
 }
