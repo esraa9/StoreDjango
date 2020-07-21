@@ -1,0 +1,16 @@
+<ul>
+    {% for product in products %}
+    <li>
+        <h2>{{  product.title | capfirst }}</h2>
+        <a href="{% url 'remove_form_cart' product_id=product.id %}">Remove from cart</a>
+    </li>
+
+    {% empty %}
+    <li>No products yet.</li>
+    {% endfor %}
+
+    <a href="{% url 'remove_all' %}" >remove all</a>
+
+
+</ul>
+<p>Total Price: {{ total_price }}</p>
