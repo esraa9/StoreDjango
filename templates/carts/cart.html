@@ -1,16 +1,89 @@
-<ul>
-    {% for product in products %}
-    <li>
-        <h2>{{  product.title | capfirst }}</h2>
-        <a href="{% url 'remove_form_cart' product_id=product.id %}">Remove from cart</a>
-    </li>
+{% extends "base.html" %}
+{% block head_title %}Cart{% endblock %}
 
-    {% empty %}
-    <li>No products yet.</li>
-    {% endfor %}
-
-    <a href="{% url 'remove_all' %}" >remove all</a>
+{% block content %}
 
 
-</ul>
-<p>Total Price: {{ total_price }}</p>
+<div class="site-section">
+    <div class="container">
+        <div class="row mb-5">
+            <form class="col-md-12" method="post">
+                <div class="site-blocks-table">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="product-thumbnail">Image</th>
+                            <th class="product-name">Product</th>
+                            <th class="product-price">Price</th>
+                            <th class="product-remove">Remove</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        {% for product in cart.items.all %}
+                        <tr>
+                            <td class="product-thumbnail">
+                                <img src="{{ product.image.url }}" alt="Image" class="img-fluid">
+                            </td>
+                            <td class="product-name">
+                                <h2 class="h5 text-black">{{ product.title | capfirst }}</h2>
+                            </td>
+                            <td>${{ product.price | floatformat:2 }}</td>
+
+                            <td><a href="{% url 'remove_from_cart' product_id=product.id %}"
+                                   class="btn btn-primary height-auto btn-sm">X</a></td>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <td colspan="4">No products yet.</td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <a class="btn btn-outline-primary btn-sm btn-block" href="{% url 'clear_cart' %}">Clear Cart</a>
+                    </div>
+                </div>
+
+            </div>
+            {% if cart.items.all.count > 0 %}
+            <div class="col-md-6 pl-5">
+                <div class="row justify-content-end">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-12 text-right border-bottom mb-5">
+                                <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                            </div>
+                        </div>
+
+                        <div class="row mb-5">
+                            <div class="col-md-6">
+                                <span class="text-black">Total</span>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <strong class="text-black">${{ cart.total_price }}</strong>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a class="btn btn-primary btn-lg btn-block" href="{% url 'order' %}">Proceed To
+                                    Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif%}
+        </div>
+    </div>
+</div>
+
+{% endblock %}

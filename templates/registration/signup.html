@@ -2,6 +2,77 @@
 {% block head_title %}Singup{% endblock %}
 
 {% block content %}
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="h3 mb-3 text-black">Sign Up</h2>
+          </div>
+          <div class="col-md-7">
+
+            <form action="" method="post" enctype="multipart/form-data">
+                   {% csrf_token %}
+              <div class="p-3 p-lg-5 border">
+                <div class="form-group row">
+                  <div class="col-md-6">
+                    <label for="id_username" class="text-black">UserName <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="id_username" name="username">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="id_password" class="text-black">Password <span class="text-danger">*</span></label>
+                    <input type="password" class="form-control" id="id_password" name="password1">
+                  </div>
+                     <div class="col-md-6">
+                    <label for="id_password2" class="text-black">Password confirmation <span class="text-danger">*</span></label>
+                    <input type="password" class="form-control" id="id_password2" name="password2">
+                  </div>
+                    <div class="col-md-6">
+                     <label for="id_first" class="text-black">First Name <span class=""></span></label>
+                    <input type="text" class="form-control" id="id_first" name="first_name">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="id_last" class="text-black">Last Name <span class=""></span></label>
+                    <input type="text" class="form-control" id="id_last" name="last_name">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-md-12">
+                    <label for="id_email" class="text-black">Email <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control" id="id_email" name="email" placeholder="example@hotmail.com">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-lg-12">
+                    <input type="submit" class="btn btn-primary btn-lg btn-block" value="Sign up">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5 ml-auto">
+            <div class="p-4 border mb-3">
+              <span class="d-block text-primary h6 text-uppercase">New York</span>
+              <p class="mb-0">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+            <div class="p-4 border mb-3">
+              <span class="d-block text-primary h6 text-uppercase">London</span>
+              <p class="mb-0">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+            <div class="p-4 border mb-3">
+              <span class="d-block text-primary h6 text-uppercase">Canada</span>
+              <p class="mb-0">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!--
 <section class="form-section">
     <h2 class="section-headline">Sign Up</h2>
     <p class="section-description">
@@ -15,5 +86,6 @@
             </p>
         </form>
     </div>
-</section>
+</section>-->
+
 {% endblock %}
